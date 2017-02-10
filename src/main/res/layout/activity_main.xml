@@ -20,31 +20,30 @@
 
     <Button
         android:text="Easy"
-        android:layout_width="wrap_content"
+        android:layout_width="90dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="43dp"
         android:id="@+id/easyButton"
-        android:layout_below="@+id/gameTitle"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignBaseline="@+id/mediumButton"
+        android:layout_alignBottom="@+id/mediumButton"
+        android:layout_alignLeft="@+id/gameTitle"
+        android:layout_alignStart="@+id/gameTitle" />
 
     <Button
         android:text="Medium"
-        android:layout_width="wrap_content"
+        android:layout_width="90dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
         android:id="@+id/mediumButton"
-        android:layout_below="@+id/easyButton"
-        android:layout_alignLeft="@+id/easyButton"
-        android:layout_alignStart="@+id/easyButton" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:text="Hard"
-        android:layout_width="wrap_content"
+        android:layout_width="90dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
         android:id="@+id/hardButton"
-        android:layout_below="@+id/mediumButton"
-        android:layout_alignLeft="@+id/mediumButton"
-        android:layout_alignStart="@+id/mediumButton" />
+        android:layout_alignBaseline="@+id/mediumButton"
+        android:layout_alignBottom="@+id/mediumButton"
+        android:layout_alignRight="@+id/gameTitle"
+        android:layout_alignEnd="@+id/gameTitle" />
 
 </RelativeLayout>

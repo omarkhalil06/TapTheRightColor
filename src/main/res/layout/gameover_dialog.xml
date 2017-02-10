@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Gameover"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/gameoverText"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:text="Score:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/gameoverScoreText"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/gameoverText"
+        android:layout_toLeftOf="@+id/gameoverText"
+        android:layout_toStartOf="@+id/gameoverText"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gameoverScore"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/gameoverScoreText"
+        android:layout_alignBottom="@+id/gameoverScoreText"
+        android:layout_toRightOf="@+id/gameoverScoreText"
+        android:layout_toEndOf="@+id/gameoverScoreText"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gameoverHighscore"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/gameoverHighscoreText"
+        android:layout_alignBottom="@+id/gameoverHighscoreText"
+        android:layout_toRightOf="@+id/gameoverText"
+        android:layout_toEndOf="@+id/gameoverText"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp" />
+
+    <TextView
+        android:text="Best:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gameoverHighscoreText"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_above="@+id/gameoverTryAgainButton"
+        android:layout_alignRight="@+id/gameoverHighscore"
+        android:layout_alignEnd="@+id/gameoverHighscore"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp" />
+
+    <Button
+        android:text="Try Again"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:id="@+id/gameoverTryAgainButton"
+        android:layout_below="@+id/gameoverScoreText"
+        android:layout_alignLeft="@+id/gameoverScoreText"
+        android:layout_alignStart="@+id/gameoverScoreText"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
+
+    <Button
+        android:text="Exit"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gameoverExitButton"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_alignBaseline="@+id/gameoverTryAgainButton"
+        android:layout_alignBottom="@+id/gameoverTryAgainButton"
+        android:layout_toRightOf="@+id/gameoverTryAgainButton"
+        android:layout_toEndOf="@+id/gameoverTryAgainButton" />
+
+</RelativeLayout>
