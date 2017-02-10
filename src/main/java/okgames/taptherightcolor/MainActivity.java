@@ -10,6 +10,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+/**
+ * MainActivity.java is the main menu of the game. Allows user
+ * to pick any difficulty.
+ *
+ * @author Omar Khalil
+ * @version 1.0
+ * @since 2017-02-09
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     private Button easy;
